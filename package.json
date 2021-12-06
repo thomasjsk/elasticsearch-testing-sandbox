@@ -1,0 +1,15 @@
+{
+  "name": "elasticsearch-testing-environment",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "thomasjsk <thomas.jasiuk@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "./node_modules/.bin/cypress open"
+  },
+  "devDependencies": {
+    "cypress": "^9.1.1",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.2"
+  }
+}
